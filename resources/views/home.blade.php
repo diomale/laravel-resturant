@@ -8,9 +8,22 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-  <h1>Diomale</h1>
-  
+  <table>
+    <tr>
+      <th>CUstomer ID</th>
+      <th>Customer Name</th>
+      <th>Customer Address</th>
+    </tr>
+    @foreach ()
+    
+    @endforeach($CustomerData as $data)
+      <tr>
+        <td>{{ $custData->cust_id }}</td>
+        <td>{{ $custData->cust_name }}</td>
+        <td>{{ $custData->cust_address }}</td>
+      </tr>
+    @endforeach
 
-  
+  </table>
 </body>
 </html>
