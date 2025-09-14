@@ -19,7 +19,8 @@ class CustomerController extends Controller
     {
         $customerData = $this->getAllCustomers();
 
-        return view('home', compact('customerData'));
+        return view('home',
+         compact('customerData'));
     }
 }
 
