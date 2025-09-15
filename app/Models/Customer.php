@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model
 {
-    public $timestamps = false;             
-    protected $table = 'customer_table';    
-    protected $primaryKey = 'cust_id';      
+    public $timestamps = false;
+    protected $table = 'customer_table';
+    protected $primaryKey = 'cust_id';    
 
     protected $fillable = [
         'cust_name',

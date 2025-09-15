@@ -9,7 +9,7 @@
 <body>
     <h1>Customer List</h1>
 
-    <table border="1" cellpadding="8" cellspacing="0">
+    <table cellpadding="8" cellspacing="0">
         <thead>
             <tr>
                 <th>Customer ID</th>
