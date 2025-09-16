@@ -7,7 +7,6 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <h1>Customer List</h1>
 
     <table cellpadding="8" cellspacing="0">
         <thead>
