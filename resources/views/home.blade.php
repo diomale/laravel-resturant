@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer List</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
 </head>
 <body>
     <h1>Customer List</h1>
@@ -40,7 +40,7 @@
     </form>
 
     {{-- Table of Customers --}}
-    <table border="1" cellpadding="8" cellspacing="0">
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
