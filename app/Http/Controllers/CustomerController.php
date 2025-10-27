@@ -34,10 +34,10 @@ class CustomerController extends Controller
     }
 
     public function edit($id)
-{
-    $customer = Customer::findOrFail($id);
-    return view('edit', compact('customer'));
-}
+    {
+        $customer = Customer::findOrFail($id);
+        return view('edit', compact('customer'));
+    }
 
     public function update(Request $request, $id)
     {
